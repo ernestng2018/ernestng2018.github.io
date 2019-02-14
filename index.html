@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ass</title>
+    <link rel="stylesheet" href="CSS/AssCss.css"
+          type="text/css" media="all">
+    <script type="text/javascript">
+        
+        function print(){
+            confirm("帳戶號碼: " + document.getElementById("name").value);
+            confirm("email: " + document.getElementById("email").value);
+            var x=document.getElementById("hopegun");
+            confirm("希望: " + x.options[x.selectedIndex].text);
+            var y = "";
+            var g = document.getElementsByName("gd");
+            for(var x=0; x<g.length; x++){
+                  if(g[x].checked){
+                          y = y + g[x].value + " ";
+                         }
+                  };
+            
+            confirm("擅長: " + y);
+            alert("其實冇槍送,你唔係信啊?");
+        }
+        
+    </script>
+</head>
+<body >
+   
+   <div class="header">
+       <div style="display: flex;align-items: center;justify-content: center;padding: 12px;">
+       
+       <div class="diveffect2" ><a href="./index.html#class1" style="color: azure"><span class="effect2">首頁</span></a></div> 
+       <div class="diveffect2" ><a href="./index.html#class2" style="color: azure"><span class="effect2">基本資料</span></a></div>
+       <div class="diveffect2" ><a href="./index.html#class7" style="color: azure"><span class="effect2">問卷調查</span></a></div>
+       <div class="diveffect2" ><a href="./index.html#class8" style="color: azure"><span class="effect2">遊戲圖片</span></a></div>
+       <div class="diveffect2" ><a href="./Ass2.html" style="color: azure"><span class="effect2">喪屍介紹</span></a></div>
+       <div class="diveffect2" style="border-right-style: solid;" ><a href="./Ass3.html" style="color: azure"><span class="effect2">槍械介紹</span></a></div>
+       
+       </div>
+   </div>
+   
+   
+   
+    <div id="class1" > </div>
+   
+    <a href="https://zh-hk.facebook.com/TWCSO2/" title="CSO2粉絲團" target="_blank" ><img src=im/logo3.png width="500" height="100" alt=“logo” class="imgeff"  /> </a>
+    
+    <div id="class2"></div>
+    
+  
+ 
+ <video autoplay loop poster="im/cso.jpg" id="csobg" muted>
+
+  <source src="./im/cso.webm" type="video/webm">
+
+  <source src="./im/cso.mp4" type="video/mp4"> 
+
+</video>  
+    
+<div id="Footer">
+   <div style="height: 20px"></div> <!-- 向下一點 -->
+   <div style="margin:0px auto; width: 1300px;">
+        <div id="class4" style="background-image: url(im/form.jpg);margin-top: 80px">
+ 
+	    <div id="class5">最新NEW!! </div>
+        
+          <div id="class3">
+                 <ul>
+                    <li><a href="javascript:alert('敬請期待~')"><img src="im/icon1.png" class="icon"> <u>29/08/2017</u><i> 系統例行維護公告</i></a></li>
+                    <li ><a href="javascript:alert('敬請期待~~')"><img src=im/icon1.png class="icon"><u>13/04/2017</u><i> 香港客服中心轉移服務補充公告</i></a></li>
+                    <li><a href="javascript:alert('敬請期待~~')"><img src=im/icon1.png class="icon"><u>01/01/2017</u><i> Windows 10作業系統使用bean…</i></a></li>
+                    <li><a href="javascript:alert('都係敬請期待~')"><img src=im/icon1.png class="icon"><u>01/01/2017</u><i> 程式更新說明公告</i></a></li>
+                    <li><a href="javascript:alert('吹咩~')"><img src=im/icon1.png class="icon"><u>12/04/2017</u><i> 香港客服中心暫停服務公告</i></a></li>
+                </ul>
+	      </div>
+        </div> 
+        <!--最新資訊-->
+   
+        <div id="class6">
+       <div style="width: 90%" >
+       <h1>
+       <div><span style="background-color: aliceblue;color: black">2018年</span>1月24日</div>
+       </h1>
+    日本NEXON官方宣布《(CSO2)カウンターストライクオンライン2》將於2018年2月28日結束營運。
+    
+       <h1>
+       <div><span style="background-color: aliceblue;color: black">2018年</span>2月22日</div>
+       </h1>
+       韓國NEXON官方和台灣遊戲橘子官方相繼宣布《絕對武力Online 2》將會在4月26日(韓國)與5月2日(台灣)結束營運。
+        <h1>
+       <div><span style="background-color: aliceblue;color: black">2018年</span>3月16日</div>
+       </h1>
+       世纪天成宣布《反恐精英Online 2》將在5月18日結束營運。
+    </div>
+</div> <!--介紹-->
+  
+   </div>
+</div>
+  
+   <div id="class7">
+       
+       <div style="height: 900px;display: flex;align-items: center;justify-content: center">
+        <div style="float: left">
+            <img src="im/imggun.png" alt="" height="700px">
+        </div>
+        <div style="margin-left: 70px;float: left">
+        
+        <!---問卷------->
+        <fieldset>
+        
+            <legend ><h2>意見調查</h2></legend>
+    <form method="get" enctype="multipart/form-data" onSubmit="print()">
+
+      <fieldset>
+       <legend>個人資料</legend>
+        帳戶號碼 :
+        <input type="text" id=name maxlength="20" required=required pattern="(^[a-zA-Z0-9][a-zA-Z0-9_-]{3,19})" title="最多20字" /><br />
+        email :
+        <input id=email type="email" required=required title="XXXXX@XXX" /><br />
+        性別 :
+        <input type="radio" name="sex" value="M" checked=checked />
+        男
+        <input type="radio" name="sex" value="F" />
+        女 <br/>
+        地區 :
+        <select name="arge">
+        <option value="H">香港</option>
+        <option value="D">新界</option>
+        <option value="K" selected="selected">九龍</option>
+        </select>
+        <br />
+      </fieldset>
+      
+      <fieldset>
+        <legend>透過什麼渠道認識CSO:</legend>
+          <textarea name="because" cols="30" rows="4" maxlength="30" title="最多30字"> </textarea><br />
+        想要什麼武器 :
+        <select id=hopegun>
+        <optgroup label="主武">
+            <option>手槍</option>
+            <option>霰彈槍</option>
+            <option>衝鋒槍</option>
+            <option selected>步槍</option>
+            <option>狙擊步槍</option>
+            <option>機關槍</option>
+        </optgroup>
+        <optgroup label="副武">
+            <option>炸彈</option>
+            <option>小刀</option>
+        </optgroup>
+        </select>
+        <br>
+        擅長什麼槍械 :
+        <input type="checkbox" name="gd" value="手槍"/>
+        手槍
+        <input type="checkbox" name="gd" value="霰彈槍"/>
+        霰彈槍
+        <input type="checkbox" name="gd" value="衝鋒槍"/>
+        衝鋒槍
+        <input type="checkbox" name="gd" value="步槍"/>
+        步槍
+        <br>
+        <input type="checkbox" name="gd" value="狙擊步槍" style="margin-left: 112.5px" />
+        狙擊步槍
+        <input type="checkbox" name="gd" value="機關槍"/>
+        機關槍
+        <br>
+        每日遊戲時長(小時) :
+        <input type="radio" name="time" required=required/>
+        0-2
+        <input type="radio" name="time" />
+        2-5
+        <input type="radio" name="time" />
+        5-7
+        <input type="radio" name="time" />
+        7以上
+        <br>
+        遊戲年長 :
+        <input type=number min="1" max="5" required=required /> 
+      </fieldset>
+      <input type="reset" value="清除" style="cursor:pointer;">
+      <spam style="margin-left: 350px">
+      <input type="submit" value="提交" style="cursor:pointer;"></spam>
+    </form>
+        
+    </fieldset>
+    
+        </div>
+      
+       </div>
+       
+       <div class=centerdiv style="margin-top: -2cm">
+       
+        <span class="word1"><span class=word2>填</span>問卷</span>
+        <span class="word1" style="margin-left: 60px">送點<span class=word2>槍</span></span>
+        
+       </div>
+       
+       
+        
+    <!---圖片------->
+        <div id=class8>
+            
+             <div class=centerdiv style="padding-top: 2cm">
+       
+                <span class="word1"><span class=word3>遊</span>戲圖
+                <span class=word3>片</span></span>
+        
+             </div>
+             
+             <div class=content><!---置中------->
+             
+            <div class=photo><img src="im/table1.jpg" class=photosize ></div>
+            <div class=photo><img src="im/table2.jpg" class=photosize ></div>
+                                  
+            </div>
+            
+            <div class=content><!---置中------->
+             
+            <div class=photo><img src="im/table3.jpg" class=photosize ></div>
+            <div class=photo><img src="im/table4.jpg" class=photosize ></div>
+                                  
+            </div>
+            
+            <div class=content><!---置中------->
+             
+            <div class=photo2><img src="im/table5.jpg" class=photosize ></div>
+            <div class=photo2><img src="im/table6.jpg" class=photosize ></div>
+                                  
+            </div>    
+        
+        </div>
+          
+     <div id=FinFooter>
+         <div class=content>
+         <div id=Flogo1size><img src="im/logo1.png" class=Finlogosize></div>
+         <div id=Flogo2size><img src="im/logo3.jpg" class=Finlogosize></div>
+         <div id=Flogo3size><img src="im/Finlogo.jpg" class=Finlogosize></div>
+         </div>
+     </div>   
+           
+   </div>
+   
+   
+    
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

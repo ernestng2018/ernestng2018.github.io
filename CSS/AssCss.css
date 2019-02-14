@@ -1,0 +1,319 @@
+
+video#csobg { 
+
+  position: fixed; right: 0; bottom: 0;
+
+  min-width: 100%; min-height: 100%;
+
+  width: auto; height: auto; z-index: -100;
+
+  background-size: cover; 
+  
+
+  }
+
+#class1 {
+    height:250px
+}
+
+#class2 {
+    height:250px
+}
+
+#class3 {
+    height:110px;
+    width: 420px;
+    margin:8px 10px 10px;
+    background-color:white;
+    color: black;
+    font-size: 6px;
+    overflow-y: scroll;
+}
+
+#class4 {
+    float: left;
+    height:200px;
+    width: 450px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-style:solid;
+    background-size:cover;
+    border-color:sienna;
+    
+}
+
+#class5 {
+    height:20px;
+    width:430px;
+    margin:10px 3px;
+    color: aliceblue;
+    border-style:inset;
+    border-color: yellow;
+    background-color:red;
+    color: yellow
+}
+
+#class6{
+    color: aliceblue;
+    margin-left: 500px;
+    margin-right: 20px;
+    height: 500px;
+}
+
+#class7{
+    background-color: rgba(47,79,79,0.8) ;
+    height: 1000px;
+}
+
+#class8{
+    background-color: rgba(80,69,255,0.8) ;
+    height: auto;
+}
+
+#Footer {
+    height: auto;
+    background-color:rgba(7,5,4,0.8);
+}
+
+.icon {
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 30;
+    height: 30px;
+}
+
+li{
+    border-bottom-style:dotted;
+    font-size: 12px
+}
+
+
+
+ul{
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 8px;
+    -webkit-margin-after: 8px;
+    -webkit-margin-end: 10px;
+    -webkit-padding-start: 30px;
+}
+
+div{
+    color: aliceblue
+}
+
+.word1{
+    font-size: 1.5cm;
+}
+
+.word2{
+    background-color: silver;
+    color: darkcyan;
+}
+
+.word3{
+    background-color: silver;
+    color: blue;
+}
+
+input {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    border-radius: 5px;
+    margin:4px 
+}
+
+.imgeff{
+    display:block; 
+    margin:auto;
+    box-shadow:2px 2px 2px rgba(20%,20%,40%,0.6),4px 4px 6px 8px rgba(20%,20%,40%,0.4),6px 6px 12px rgba(20%,20%,40%,0.4);
+    border-radius: 30px;
+}
+
+.imgeff:hover{
+    border-radius: 70px;
+    border-style: groove;
+}
+
+fieldset{
+    border-radius: 8px;
+}
+
+.header{
+    position: fixed;
+    z-index: 100;
+    top:0;
+    width: 100%;
+    background-color:rgba(7,5,4,0.8);
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+    box-shadow:2px 2px 2px rgba(20%,20%,40%,0.6),4px 4px 6px 8px rgba(20%,20%,40%,0.4),6px 6px 12px rgba(20%,20%,40%,0.4);
+}
+
+.effect2{
+    float: left;
+    padding-left:12px;
+    font-size: 25px;
+    text-align: center;
+    transition: 0.5s;
+    
+}
+
+.effect2:hover{
+    padding-left:12px;
+    font-size: 2cm;
+    align-self: center;
+    color: red
+}
+
+.diveffect2{
+    border-left-style: solid;
+    border-color: aliceblue;
+    margin-left: 10px;
+    padding-right: 10px;
+    border-width: 0.5px
+}
+
+.diveffect2:hover{
+    background-size: 150px 100px;
+}
+
+.diveffect2:active{
+    background-size: cover;
+    background-image: url(../im/effect2.png);
+    padding-top: 20px;
+}
+
+.centerdiv{
+    margin:0px auto;
+    height: 100px;
+    width:700px;
+    text-align: center;
+}
+
+.photo{
+    width: 400px;
+    height: 300px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform:skewX(20deg) skewY(10deg);
+    opacity:0.5;
+    margin: 20px;
+    
+}
+
+.photo:hover{
+    opacity:0.7;
+}
+
+.photo:active{
+    width: 700px;
+    height: 500px;
+    transform:skewX(0deg) skewY(0deg);
+    transition-duration: 1s;
+    opacity:1;
+}
+
+.photo2{
+    width: 400px;
+    height: 300px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform:skewX(20deg) skewY(10deg);
+    opacity:0.5;
+    margin: 20px;
+    
+}
+
+.photo2:hover{
+    opacity:0.7;
+}
+
+.photo2:active{
+    width: 700px;
+    height: 500px;
+    transform:skewX(0deg) skewY(0deg);
+    transition-duration: 1s;
+    opacity:1;
+    margin-top: -20%;
+}
+
+.photosize{
+    width: auto;
+    height: auto;
+    max-width: 100%; 
+    max-height: 100%;
+    box-shadow:2px 2px 2px rgba(20%,20%,40%,0.6),4px 4px 6px 8px rgba(20%,20%,40%,0.4),6px 6px 12px rgba(20%,20%,40%,0.4);
+}
+
+.photosize:active{
+    width: auto;
+    height: auto;
+    max-width: 100%; 
+    max-height: 100%;
+    box-shadow:2px 2px 2px 8px rgba(60%,60%,70%,0.6),4px 4px 6px 8px rgba(60%,60%,70%,0.4),6px 6px 12px 8px rgba(60%,60%,70%,0.4);
+    transition-duration: 1.8s;
+}
+
+.content{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#FinFooter{
+    height: 3cm;
+    background-color:rgba(7,5,4,0.8);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-style:solid; 
+    border-color: aliceblue;
+    border-bottom-style: solid;
+}
+
+.Finlogosize{
+    width: auto;
+    height: auto;
+    max-width: 100%; 
+    max-height: 100%;
+}
+
+#Flogo1size{
+    width: 2cm ;
+    height: 2cm;
+    float: left;
+    margin-top: 20px;
+}
+
+#Flogo2size{
+    width: 5cm ;
+    height: 2cm;
+    float: left;
+    margin-left: 7%;
+    margin-top: 25px;
+    
+}
+
+#Flogo3size{
+    width: 2cm ;
+    height: 2cm;
+    float: left;
+    margin-left: 7%;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+

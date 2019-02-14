@@ -1,0 +1,139 @@
+body, html {
+    height: 100%;
+}
+.fixedbg {
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.fixedbg.bg1 {
+    background-image: url(http://gamebunch.net/wp-content/uploads/2015/07/%EC%B9%B4%EC%9A%B4%ED%84%B0%EC%8A%A4%ED%8A%B8%EB%9D%BC%EC%9D%B4%ED%81%AC-%EC%98%A8%EB%9D%BC%EC%9D%B8-2_%EC%8B%A0%EA%B7%9C%EB%B3%B4%EC%8A%A4-%ED%85%8C%EC%8A%AC%EB%9D%BC-%EC%9D%B4%EB%AF%B8%EC%A7%80.jpg);
+}
+.fixedbg.bg2 {
+    background-image: url(http://mblogthumb4.phinf.naver.net/20151218_251/seon_me_1450425043333OPCXn_JPEG/%C4%AB%BD%BA1_%C1%BB%BA%F1%B8%F0%B5%E5_01.jpg?type=w2);
+}
+.fixedbg.bg3 {
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/548636478103656303/A8BD205E9133D02ABF28CE2145C1B3E16BA41E19/);
+}
+.fixedbg.bg4 {
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/548636380594852388/8B45B53E5DD72A5D05BD73858A55CD96B62D82B4/);
+}
+.bg {
+    min-height: 100%;
+    background-color:rgba(7,5,4,0.7);
+    color: aliceblue;
+}
+
+.content{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.class1{
+    width: 600px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 70px;
+        
+}
+
+.imgsize{
+    width: 400px;
+    height: 600px;
+    margin: 20px;
+    
+}
+
+.imgsize2{
+    width: 500px;
+    height: 600px;
+    margin: 20px;
+    
+}
+
+#title{
+    color: silver;
+    font-size: 1.8cm;
+}
+
+.top{
+    width: 100px;
+    height: auto;
+    background-color:rgba(7,5,4,0.5);
+    font-size: 1cm;
+    text-align: center;
+    position: fixed;
+    border-radius: 80px;
+    margin-top: 20px;
+}
+
+.topeff{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.topeff:hover{
+    color: red;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+
+.download{
+    font-size: 2cm;
+    background-color:rgba(7,5,4,0.5); 
+    border-radius: 20px;
+    margin-top: -70px;
+}
+
+.Slide{
+    width: 140px;
+    height: auto;
+    margin-left: 70px;
+    transition-duration: 1s;
+}
+
+.Slide:hover{
+    width: 140px;
+    height: auto;
+    margin-left: 0px;
+    transition-duration: 0.5s;
+}
+
+.Slide2{
+    width: 140px;
+    height: auto;
+    margin-left: -70px;
+    transition-duration: 1s;
+}
+
+.Slide2:hover{
+    width: 140px;
+    height: auto;
+    margin-left: 0px;
+    transition-duration: 0.5s;
+}
+
+header{
+    background-color:rgba(7,5,4,0.5);
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+    box-shadow:2px 2px 2px rgba(20%,20%,40%,0.6),4px 4px 6px 8px rgba(20%,20%,40%,0.4),6px 6px 12px rgba(20%,20%,40%,0.4);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
